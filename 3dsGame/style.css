@@ -1,3 +1,13 @@
 body {
     background-color: rgb(148, 205, 255);
 }
+
+.center {
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(74, 179, 179);
+    border-radius: 0.3cm;
+    padding: 0.1cm;
+}
