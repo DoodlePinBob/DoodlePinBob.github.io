@@ -1,0 +1,15 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 0.5cm;
+}
+
+table, th, td {
+    padding: 0.2cm;
+}
