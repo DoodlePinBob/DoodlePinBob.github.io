@@ -4,12 +4,12 @@ body {
     color: white;
 }
 
-table {
+button {
     border-collapse: collapse;
     background-color: white;
     border-radius: 0.5cm;
 }
 
-table, th, td {
+button {
     padding: 0.2cm;
 }
