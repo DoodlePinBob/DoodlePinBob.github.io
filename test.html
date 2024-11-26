@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nintendo Account Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #e60012;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+      border-radius: 5px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-section img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-section .info {
+      font-size: 18px;
+    }
+
+    .settings-group {
+      margin-top: 20px;
+    }
+
+    .settings-group h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #e60012;
+      display: inline-block;
+    }
+
+    .settings-item {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .settings-item:hover {
+      background-color: #f1f1f1;
+    }
+
+    .settings-item a {
+      color: #e60012;
+      text-decoration: none;
+    }
+
+    .settings-item a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nintendo Account Settings</h1>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#security">Security</a>
+    <a href="#preferences">Preferences</a>
+    <a href="#logout">Log Out</a>
+  </nav>
+
+  <div class="container">
+    <section id="profile" class="profile-section">
+      <img src="profile-placeholder.png" alt="Profile Picture">
+      <div class="info">
+        <h2>John Doe</h2>
+        <p>Email: johndoe@example.com</p>
+      </div>
+    </section>
+
+    <div class="settings-group" id="security">
+      <h2>Security</h2>
+      <div class="settings-item">
+        <p><strong>Password:</strong> ********</p>
+        <a href="#">Change Password</a>
+      </div>
+      <div class="settings-item">
+        <p><strong>2-Step Verification:</strong> Enabled</p>
+        <a href="#">Manage Settings</a>
+      </div>
+    </div>
+
+    <div class="settings-group" id="preferences">
+      <h2>Preferences</h2>
+      <div class="settings-item">
+        <p><strong>Language:</strong> English</p>
+        <a href="#">Change Language</a>
+      </div>
+      <div class="settings-item">
+        <p><strong>Region:</strong> United States</p>
+        <a href="#">Change Region</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Nintendo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
